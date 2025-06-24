@@ -4,7 +4,7 @@ import { Route, Routes } from 'react-router-dom';
 import Home from './pages/Home';
 import Dashboard from './pages/Dashboard';
 import Projects from './pages/Projects';
-import ProtectedRoute from './utils/protectedRoute';
+import ProtectedRoute from './utils/ProtectedRoute';//protected Route
 import PageNotFound from './components/PageNotFound/PageNotFound';
 
 const App = () => {
