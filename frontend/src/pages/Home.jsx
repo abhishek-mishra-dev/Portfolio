@@ -74,7 +74,7 @@ const Home = () => {
    
       <div className="frontend-container backend-container">
         <div className="frontend-skills appearRight">
-          <h3>backend</h3>
+          <h3>Backend</h3>
           <div className="skills-icon">
             <Tooltips content="Node.js" />
             <Tooltips content="Express.js" />
@@ -103,7 +103,7 @@ const Home = () => {
                         <span>10th Grade</span>
                     </h3>
                     <p className="card-text">
-                        <span className="semibold">Board:</span> <span>CBSE</span>
+                        <span className="semibold">Board:</span> <span>State board</span>
                     </p>
                     {/* <p class="card-text">
                         <span class="font-semibold">Year:</span> <span>2017</span>
@@ -119,13 +119,13 @@ const Home = () => {
                         <span>12th Grade</span>
                     </h3>
                     <p className="card-text">
-                        <span className="semibold">Board:</span> <span>CBSE</span>
+                        <span className="semibold">Board:</span> <span>State Board</span>
                     </p>
                     {/* <p class="card-text">
                         <span class="font-semibold">Year:</span> <span>2019</span>
                     </p> */}
                     <p className="card-text">
-                        <span className="semibold">Percentage:</span> <span>80%</span>
+                        <span className="semibold">Percentage:</span> <span>78%</span>
                     </p>
                 </div>
 
@@ -144,7 +144,7 @@ const Home = () => {
                         <span className="semibold">Year:</span> <span>2025</span>
                     </p>
                     <p className="card-text">
-                        <span className="semibold">CGPA:</span> <span>Approximately 8.5</span>
+                        <span className="semibold">CGPA:</span> <span>Approximately 7.5</span>
                     </p>
                 </div>
             </div>
