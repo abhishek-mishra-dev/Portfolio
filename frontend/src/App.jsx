@@ -7,7 +7,6 @@ import Projects from './pages/Projects';
 import ProtectedRoute from './utils/protectedRoute';
 import PageNotFound from './components/PageNotFound/PageNotFound';
 
-export const backendUrl="http://localhost:1200"
 const App = () => {
   return (
     <>
