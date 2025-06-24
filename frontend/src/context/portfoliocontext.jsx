@@ -1,6 +1,6 @@
 import { createContext, useEffect, useState } from "react";
-import { serverApi } from "../main";
 import { toast } from 'react-toastify';
+import { serverApi } from "../utils/config";
 
 export const UserContext = createContext();
 export const UserProvider = ({ children }) => {
