@@ -1,29 +1,15 @@
 import React, { useContext } from 'react'
+import { UserContext } from '../context/portfoliocontext';
+import Card from '../components/card/Card';
+import Tooltips from '../components/tooltips/Tooltips';
+
 import { MdCall } from "react-icons/md";
 import { FaGithub } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import { FaSquareXTwitter } from "react-icons/fa6";
 import { IoLogoWhatsapp } from "react-icons/io";
 import { FaLinkedin } from "react-icons/fa";
-import { UserContext } from '../context/portfoliocontext';
-import Card from '../components/card/card';
-import Tooltips from '../components/tooltips/Tooltips';
-import { FaHtml5 } from "react-icons/fa";
-import { IoLogoCss3 } from "react-icons/io";
-import { FaJsSquare } from "react-icons/fa";
-import { IoLogoReact } from "react-icons/io5";
-import { FaBootstrap } from "react-icons/fa";
-import { RiTailwindCssFill } from "react-icons/ri";
-import { TbBrandRedux } from "react-icons/tb";
-import { GiMaterialsScience } from "react-icons/gi";
-import { FaNodeJs } from "react-icons/fa";
-import { SiExpress } from "react-icons/si";
-import { SiMongodb } from "react-icons/si";
-import { SiPostgresql } from "react-icons/si";
-import { FaGitSquare } from "react-icons/fa";
-import { SiGithub } from "react-icons/si";
-import { VscSourceControl } from "react-icons/vsc";
-import { SiPostman } from "react-icons/si";
+
 
 const Home = () => {
   const { projects } = useContext(UserContext);
