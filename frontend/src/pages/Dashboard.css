@@ -1,0 +1,66 @@
+.add-project-container {
+  max-width: 600px;
+  margin: 30px auto;
+  padding: 20px;
+  background: #fff;
+  margin-bottom: 2rem;
+  border-radius: 16px;
+  box-shadow: 0 0 20px rgba(182, 5, 5, 0.08);
+}
+.add-form-container{
+background-color: var(--pink-color);
+}
+.add-project-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.add-project-form input[type="text"],
+.add-project-form textarea,
+.add-project-form input[type="file"] {
+  padding: 10px 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+  width: 100%;
+}
+.add-project-form input[type="file"]{
+    padding-bottom: 2rem;
+}
+
+.add-project-form textarea {
+  min-height: 100px;
+}
+.add-project-container h3{
+    text-align:center;
+    margin-bottom: 2rem;
+}
+.add-project-form button {
+  padding: 12px;
+  background-color:var(--dark-blue);
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.add-project-form button:hover {
+  background-color:var(--light-blue);
+}
+
+.image-preview {
+  width: 100%;
+  max-height: 300px;
+  object-fit: contain;
+  border-radius: 8px;
+}
+.img-product-container h3{
+  text-align: center;
+}
+.img-product-container p{
+  text-align: center;
+  color:#aca8a8;
+  font-size: clamp(1.5rem,4vw,2rem);
+}

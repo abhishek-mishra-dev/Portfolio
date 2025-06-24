@@ -1,0 +1,90 @@
+.navbar {
+    text-align: center;
+    border-radius: 0.2rem;
+    box-shadow: -2px -2px 0px -5px rgba(0, 0, 0, 0.46);
+    -webkit-box-shadow: -2px -2px 0px -5px rgba(0, 0, 0, 0.46);
+    -moz-box-shadow: -2px -2px 0px -5px rgba(0, 0, 0, 0.46);
+}
+.sticky-header {
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  background-color: var(--white-color);
+}
+
+.list {
+    width: 70%;
+    margin: auto;
+    border-radius: 3rem 0rem 3rem 0rem;
+    padding: 1px 0px;
+    list-style-type: none;
+    font-size: 1rem;
+    font-weight: 500;
+    background-color: var(--pink-color);
+}
+
+.list li {
+    display: inline-block;
+    padding: 1rem 1.2rem;
+    color: var(--dark-blue);
+}
+.list li a {
+  text-decoration: none;
+  color:var(--light-blue);
+  font-weight: 500;
+  transition: color 0.3s;
+
+}
+
+
+.list li a:hover {
+  color:var(--dark-blue);
+  border-bottom: 2px solid var(--dark-blue);
+}
+
+.list li .btn{
+    background-color: var(--dark-blue);
+    color: var(--white-color);
+    padding:0.6rem 2rem;
+    border-radius: 4px;
+    transition: color 0.3s ease-in-out;
+}
+.list li .btn:hover{
+    border-bottom: none;
+    background-color: var(--light-blue);
+    color: var(--white-color);
+}
+
+.list li:hover {
+    cursor: pointer;
+}
+
+@media (max-width:640px){
+.list{
+    font-size: 0.8rem;
+    font-weight: 400;
+}
+.list li .btn{
+    padding:0.5rem 2rem;
+}
+.list li {
+    padding: 0.6rem 0.8rem;
+}
+}
+@media (max-width:640px){
+.list{
+    font-size: 0.8rem;
+    font-weight: 400;
+}
+.list li .btn{
+    padding:0.5rem 2rem;
+}
+.list li {
+    padding: 0.6rem 0.8rem;
+}
+}
+@media (min-width:641px) and (max-width:1024px){
+    .list li .btn{
+    padding:0.8rem 2rem;
+}
+}

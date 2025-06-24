@@ -1,0 +1,22 @@
+.paga-not-found{
+    background-color: var(--pink-color);
+    border-radius: 0rem 4rem 0rem 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: center;
+}
+.paga-not-found h1{
+    font-size: clamp(2rem, 4vw, 3rem);
+    margin-bottom: 1rem;
+}
+#back-home{
+    text-decoration: none;
+    background-color: var(--dark-blue);
+    color: var(--white-color);
+    padding: 1rem 2rem;
+    border-radius: 5px;
+}
+#back-home:hover{
+    background-color: var(--light-blue);
+}
