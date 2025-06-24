@@ -1,9 +1,9 @@
 import React from 'react'
 import { FaGithub } from 'react-icons/fa'
-import { serverApi } from '../../main';
 import './Card.css'
 import { CgLivePhoto } from "react-icons/cg";
 import { useNavigate } from 'react-router-dom';
+import { serverApi } from '../../utils/config';
 
 
 function Card({project}) {

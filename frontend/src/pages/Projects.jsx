@@ -1,7 +1,7 @@
 import React, { useContext } from 'react'
 import { useParams } from 'react-router-dom';
 import { UserContext } from '../context/portfoliocontext';
-import { serverApi } from '../main';
+import { serverApi } from '../utils/config';
 
 const Projects = () => {
   const {id}=useParams();

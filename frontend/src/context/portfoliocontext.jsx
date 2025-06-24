@@ -6,12 +6,14 @@ export const UserContext = createContext();
 export const UserProvider = ({ children }) => {
   const [user, setUser] = useState(false);
   const [projects, setProjects] = useState([]);
+  const [loading, setLoading] = useState(true);
 
   function fetchProjects(){
     fetch(`${serverApi}/get-projects`)
     .then((res) => res.json())
       .then((data) => {
         setProjects(data.projects);
+        setLoading(false);
         console.log(data.projects);
       })
       .catch((e)=>{
@@ -59,7 +61,8 @@ const value = {
   setUser,
   setProjects,
   deleteProject,
-  fetchProjects
+  fetchProjects,
+  loading,
 }
 return (
     <UserContext.Provider value={value}>

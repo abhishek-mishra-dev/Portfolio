@@ -1,9 +1,9 @@
 import React, { useContext, useState } from 'react';
 import { UserContext } from '../context/portfoliocontext';
-import { serverApi } from '../main';
 import { toast } from 'react-toastify';
 import './Dashboard.css';
 import { MdDelete } from "react-icons/md";
+import { serverApi } from '../utils/config';
 const Dashboard = () => {
   const { projects, deleteProject, fetchProjects } = useContext(UserContext);
 

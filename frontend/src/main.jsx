@@ -4,7 +4,7 @@ import App from './App.jsx'
 import { BrowserRouter } from 'react-router-dom';
 import { UserProvider } from './context/portfoliocontext.jsx';
 
-export const serverApi = 'https://my-fump.onrender.com';
+
 // export const serverApi = 'http://localhost:1200';
 
 import { ToastContainer } from 'react-toastify';

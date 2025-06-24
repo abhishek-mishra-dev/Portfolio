@@ -1,0 +1,48 @@
+.shimmer {
+  background: #f6f7f8;
+  border-radius: 12px;
+  padding: 1rem;
+  animation: pulse 1.5s infinite ease-in-out;
+  width: 100%;
+  max-width: 300px;
+  margin: 1rem auto;
+}
+
+.shimmer-img {
+  height: 180px;
+  background: #e0e0e0;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+.shimmer-title,
+.shimmer-line {
+  height: 14px;
+  background: #e0e0e0;
+  border-radius: 4px;
+  margin-bottom: 8px;
+}
+
+.shimmer-title {
+  width: 60%;
+}
+
+.shimmer-line {
+  width: 90%;
+}
+
+.shimmer-line.short {
+  width: 50%;
+}
+
+@keyframes pulse {
+  0% {
+    background-color: #f0f0f0;
+  }
+  50% {
+    background-color: #e4e4e4;
+  }
+  100% {
+    background-color: #f0f0f0;
+  }
+}

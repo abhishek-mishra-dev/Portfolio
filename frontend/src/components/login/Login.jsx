@@ -1,11 +1,11 @@
 import React, { useState } from 'react'
 import { RxCross1 } from "react-icons/rx";
 import './Login.css'
-import { serverApi } from '../../main';
 import { useContext } from 'react';
 import { UserContext } from '../../context/portfoliocontext';
 import { useNavigate } from 'react-router-dom';
 import { toast } from 'react-toastify';
+import { serverApi } from '../../utils/config';
 const Login = ({ setIsLogin }) => {
      const navigate = useNavigate();
     const [formSending,setFormSending]=useState(false);

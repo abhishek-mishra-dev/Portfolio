@@ -2,9 +2,11 @@
 
 Welcome to my personal developer portfolio! This is a full-stack project that showcases my work, skills, and experience in web development using the **MERN stack**.
 
-![Portfolio Preview](./s1.png) <!-- Replace with actual path to your screenshot -->
-![Portfolio Preview](./s2.png) <!-- Replace with actual path to your screenshot -->
-![Portfolio Preview](./s3.png) <!-- Replace with actual path to your screenshot -->
+![Portfolio Preview](./s1.png) 
+![Portfolio Preview](./s2.png) 
+![Portfolio Preview](./s3.png) 
+![Portfolio Preview](./s4.png) 
+![Portfolio Preview](./s5.png) 
 
 ## 🌐 Live Demo
 

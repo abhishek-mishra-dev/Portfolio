@@ -19,8 +19,8 @@
 }
 
 .skill-btn:hover {
-    color:var(--grey-color);
-  border-color:var(--grey-color);
+    color:var(--green-color);
+  border-color:var(--green-color);
   transform: translateY(-2px);
   box-shadow: 0 4px 12px rgba(0, 119, 204, 0.2);
 }
