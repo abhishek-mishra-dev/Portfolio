@@ -27,7 +27,7 @@ const Home = () => {
           <a href="tel:+916392670425" id='call' className='links' ><MdCall size={40} color='blue' className='icons' /></a>
           <a href="https://wa.me/916392670425" target='_blank' id='whatsapp' className='links' ><IoLogoWhatsapp size={40} color='green' className='icons' /></a>
           <a href="https://www.linkedin.com/in/afzal-mia-606aa0293/" target='_blank' id='linkedin' className='links' ><FaLinkedin size={40} color='blue' className='icons' /></a>
-          <a href="./Md_Afjal_Ansari_Resume.pdf" download id='resume' className='icons links'>Resume📄</a>
+          <a href="https://drive.google.com/file/d/1Zn5xVFmj8LDW8OXpGEOKeVkIcrT3ZnrN/view" download id='resume' className='icons links'>Resume📄</a>
         </div>
       </div>
     <div className="text"><h1 className='text-animation'>Md Afjal <span id="surname">Ansari</span></h1></div>
