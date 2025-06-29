@@ -554,8 +554,9 @@ tbody tr:hover {
   padding:2px;
   border: 1px solid #ccc;
 }
-#fixed-contact{
-  display: none;
+#fixed-contact a{
+  width: 33px;
+  height: 33px;
 }
 
 }

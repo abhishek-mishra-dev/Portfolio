@@ -163,7 +163,7 @@ const Home = () => {
    
 </div>
 {/* footer */}
-<footer className="footer appearRight fix-width">
+<footer className="footer imageShow">
   <div className="footer-content ">
     <div className="footer-brand">
       <h2>Md Afjal Ansari</h2>
