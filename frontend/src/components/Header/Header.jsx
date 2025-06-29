@@ -12,11 +12,11 @@ const Header = () => {
         <nav className="navbar fix-width">
             <ul className='list'>
                 <li><a href="/">Home</a></li>
-                <li><a href="/#projects">Projects</a></li>
+                <li><a href="#projects">Projects</a></li>
                 <li><a href="#skills">skills</a></li>
                 <li><a href="#about">Education</a></li>
                 <li><a href="#contacts">Contacts</a></li>
-                <li>{user ? <a href="/dashboard" className='btn'>Dashboard</a> :<a href="#" className='btn'onClick={()=>setIsLogin(true)}>Login</a> }</li>
+                <li>{user ? <Link to="/dashboard" className='btn'>Dashboard</Link> :<Link href="#" className='btn'onClick={()=>setIsLogin(true)}>Login</Link> }</li>
             </ul>
         </nav>
     </header>

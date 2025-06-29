@@ -30,6 +30,11 @@ const Home = () => {
           <a href="https://drive.google.com/file/d/1Zn5xVFmj8LDW8OXpGEOKeVkIcrT3ZnrN/view" download id='resume' className='icons links'>Resume📄</a>
         </div>
       </div>
+
+      <div className="fix-width fade-container">
+
+
+      </div>
     <div className="text"><h1 className='text-animation'>Md Afjal <span id="surname">Ansari</span></h1></div>
       <div className="projects-container fix-width" id="projects">
   {loading ? (
@@ -157,7 +162,7 @@ const Home = () => {
    
 </div>
 {/* footer */}
-<footer className="footer appearRight">
+<footer className="footer appearRight fix-width">
   <div className="footer-content fix-width">
     <div className="footer-brand">
       <h2>Md Afjal Ansari</h2>
