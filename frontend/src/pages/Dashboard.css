@@ -66,33 +66,52 @@ background-color: var(--pink-color);
 }
 
 /* fade-container */
+.p{
+  margin: 0px auto;
+}
 .fade-container{
-background-color: var(--pink-color);
-width: 100px;
-height: 100px;
+/* background-color: var(--pink-color); */
+overflow: hidden;
+position: absolute;
+border: 2px solid black;
+width: 250px;
+height: 250px;
+z-index: 2;
 border-radius: 50% 50% 48% 52% / 49% 48% 52% 51% ;
 transition: all 0.3s ease-in-out;
 animation: glow 5s ease-in-out 1s infinite both;
 }
+@media (max-width:646px) {
+  .fade-container{
+    width:250px;
+    height:250px;
+  }
+}
 @keyframes glow{
   0%{
-    background-color: #737cf1;
+    /* background-color: #737cf1; */
+    border-color: #737cf1;
+
      border-radius:41% 59% 32% 68% / 68% 48% 52% 32% ;
   }
   25%{
-    background-color: #ebffd8e6;
+    /* background-color: #ebffd8e6; */
+     border-color: #ebffd8e6;
      border-radius: 72% 28% 63% 37% / 43% 59% 41% 57% ;
   }
   50%{
-    background-color: #f0f4a2e6;
+    /* background-color: #f0f4a2e6; */
+    border-color: #f0f4a2e6;
      border-radius:64% 36% 46% 54% / 26% 67% 33% 74%  / 43% 59% 41% 57% ;
   }
   75%{
-    background-color: #f5bff7e6;
+    /* background-color: #f5bff7e6; */
+    border-color: #f5bff7e6;
      border-radius:34% 66% 14% 86% / 58% 46% 54% 42%  ;
   }
   100%{
-    background-color: #f8e3c6e6;
+    /* background-color: #f8e3c6e6; */
+    border-color: #f8e3c6e6;
      border-radius: 50% 50% 48% 52% / 49% 48% 52% 51%;
   }
 }

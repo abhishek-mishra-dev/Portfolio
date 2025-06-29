@@ -29,12 +29,13 @@ const Home = () => {
           <a href="https://www.linkedin.com/in/afzal-mia-606aa0293/" target='_blank' id='linkedin' className='links' ><FaLinkedin size={40} color='blue' className='icons' /></a>
           <a href="https://drive.google.com/file/d/1Zn5xVFmj8LDW8OXpGEOKeVkIcrT3ZnrN/view" download id='resume' className='icons links'>Resume📄</a>
         </div>
+        <div className="fade-container ">
+        </div>
       </div>
 
-      <div className="fix-width fade-container">
+      
+    
 
-
-      </div>
     <div className="text"><h1 className='text-animation'>Md Afjal <span id="surname">Ansari</span></h1></div>
       <div className="projects-container fix-width" id="projects">
   {loading ? (
@@ -74,7 +75,7 @@ const Home = () => {
           <img src="./frontend.png" alt="frontend Image" className='imageShow'/>
         </div>
       </div>
-   
+      
       <div className="frontend-container backend-container">
         <div className="frontend-skills appearRight">
           <h3>Backend</h3>
@@ -163,7 +164,7 @@ const Home = () => {
 </div>
 {/* footer */}
 <footer className="footer appearRight fix-width">
-  <div className="footer-content fix-width">
+  <div className="footer-content ">
     <div className="footer-brand">
       <h2>Md Afjal Ansari</h2>
       <p>Full Stack Developer</p>
