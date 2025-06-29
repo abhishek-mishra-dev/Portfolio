@@ -190,6 +190,9 @@ app.delete("/projects/:id",isAfzal,async(req,res)=>{
 app.get("/", (req, res) => {
     res.send(`<p>Server is working don't worry about it </p>`)
 })
+app.get("/loads",(req,res)=>{
+    res.send("All of them are not working properly");
+})
 
 app.listen(PORT, () => {
     console.log(`server is running on http://localhost:${PORT}`);
