@@ -2,8 +2,7 @@ import { createRoot } from 'react-dom/client'
 import './index.css'
 import App from './App.jsx'
 import { BrowserRouter } from 'react-router-dom';
-import { UserProvider } from './context/portfoliocontext.jsx';
-
+import UserProvider from './context/portfoliocontext.jsx';
 
 // export const serverApi = 'http://localhost:1200';
 

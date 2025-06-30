@@ -3,7 +3,7 @@ import { toast } from 'react-toastify';
 import { serverApi } from "../utils/config";
 
 export const UserContext = createContext();
-export const UserProvider = ({ children }) => {
+function UserProvider ({ children }){
   const [user, setUser] = useState(false);
   const [projects, setProjects] = useState([]);
   const [loading, setLoading] = useState(true);
@@ -70,3 +70,4 @@ return (
     </UserContext.Provider>
   );
 };
+export default UserProvider;

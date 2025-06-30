@@ -29,7 +29,8 @@ app.use(express.json());
 app.use(cors());
 
 app.use('/uploads', express.static(path.join(__dirname, "uploads")));
-
+console.log("Static folder path:", path.join(__dirname, "uploads"));
+console.log("check the path");
 const userSchema = new mongoose.Schema({
     name: { type: String },
     email: { type: String, required: true },
