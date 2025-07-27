@@ -126,7 +126,7 @@ const Home = () => {
               <Tooltips content="Node.js" />
               <Tooltips content="Express.js" />
               <Tooltips content="MongoDB" />
-              <Tooltips content="Sql" />
+              <Tooltips content="MySql" />
               <Tooltips content="Git" />
               <Tooltips content="Github" />
               <Tooltips content="VersionControl" />
